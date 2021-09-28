@@ -1,0 +1,275 @@
+.entry-title {
+  display: none;
+}
+
+.page-id-14 .container-page-title {
+  display: none;
+}
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+.entry-content a {
+  border-bottom: 3px solid #b9cdfb;
+  color: #343a40;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.entry-content a:hover {
+  border-bottom: 3px solid #96b4f9;
+  color: #101010;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.container__page {
+  background-color: #f1f4f8;
+  padding: 1.5rem 0;
+}
+
+.container-page-title {
+  color: #343a40;
+  font-family: "DM Mono", monospace;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: -0.1rem;
+  line-height: 1.1;
+}
+
+.container__page-subtitle {
+  color: #495057;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+#content.site-content {
+  padding-top: 0;
+}
+
+#content {
+  margin-top: 1.5rem;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+header#masthead {
+  padding: 0 0.74rem;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
+  background-color: #2d2d31;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 1rem 1.25rem;
+}
+
+body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover,
+body:not(.theme-preset-active)
+  #masthead
+  .navbar-nav
+  > li.current_page_item
+  > a {
+  color: #000;
+  font-weight: 500;
+  background: #fdba3a;
+}
+
+#menu-top-nav {
+  font-weight: 400;
+  grid-gap: 0.75rem;
+  padding: 0.25rem;
+}
+/*--------------------------------------------------------------
+## Branding
+--------------------------------------------------------------*/
+#bso-title {
+  color: #fff;
+  font-family: "DM Mono", monospace;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+/*--------------------------------------------------------------
+## Logo
+--------------------------------------------------------------*/
+.custom_logo {
+  margin-right: 8px;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+.container {
+  max-width: 950px;
+}
+
+.entry-content {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 400;
+}
+
+blockquote,
+dl,
+ol,
+p,
+table,
+ul {
+  color: #495057;
+  font-size: 1.25rem;
+}
+
+html p {
+  line-height: 1.75;
+}
+
+h2,
+h3 {
+  color: #495057;
+}
+
+/*--------------------------------------------------------------
+# Recent Posts Widget Extended
+--------------------------------------------------------------*/
+
+#post-row h3 {
+  font-size: 1.4rem !important;
+}
+
+#post-row a {
+  color: #495057;
+}
+
+.rpwe-time {
+  color: #858b93 !important;
+  font-family: Menlo;
+  font-size: 1rem !important;
+}
+
+.rpwe-block li {
+  border-bottom: none !important;
+  padding: 0.75rem 1rem;
+}
+
+.rpwe-block li:hover {
+  background-color: #f1f4f8;
+}
+
+.rpwe-block a {
+  border-bottom: none;
+}
+
+.rpwe-block a:hover {
+  border-bottom: none;
+}
+
+#post-row .rpwe-thumb {
+  border: none !important;
+}
+
+.rpwe-title a {
+  border-bottom: 3px solid #b9cdfb;
+  color: #343a40;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.rpwe-title a:hover {
+  border-bottom: 3px solid #96b4f9;
+  color: #101010;
+}
+
+/*--------------------------------------------------------------
+# Tags
+--------------------------------------------------------------*/
+
+.post-meta {
+  align-items: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.tags > a {
+  border: 1px solid #0000001a;
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: 1;
+  margin: 0.2rem;
+  padding: 0.5rem 0.6rem;
+  white-space: nowrap;
+}
+
+.post-meta .tags a {
+  background: #5183f5;
+  color: #fff;
+  text-decoration: none;
+}
+
+.post-meta .tags a:hover {
+  background: #364fc7;
+  color: #fff;
+  text-decoration: none;
+}
+
+.auth-meta {
+  color: #858b93;
+  font-family: "DM Mono", monospace;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.auth-name {
+  color: #495057;
+  font-weight: 600;
+}
+
+/*--------------------------------------------------------------
+# Services Grid
+--------------------------------------------------------------*/
+
+.services-grid {
+  display: grid;
+  grid-column-gap: 75px;
+  grid-row-gap: 75px;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: stretch;
+  width: 100%;
+}
+
+.sg-item p {
+  font-size: 1.1rem;
+}
+
+.lined {
+  position: relative;
+}
+
+.lined::after {
+  background: #fdba3a;
+  bottom: -10px;
+  content: "";
+  height: 5px;
+  left: 0;
+  position: absolute;
+  width: 100px;
+}
+
+/*--------------------------------------------------------------
+# Highlight Background Colours
+--------------------------------------------------------------*/
+
+::selection {
+  background: #fdba3a; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #fdba3a; /* Gecko Browsers */
+}
