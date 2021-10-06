@@ -17,7 +17,7 @@
                 } elseif ( is_page(43)) {
                     echo esc_html__("blog subtitle");
                 } elseif ( is_page(14)) {
-                    echo esc_html__("Hi, I'm Ben, a Lancashire-based freelance web developer, specialising in WordPress development and front-end design but I also get a kick out of back-end development");
+                    echo esc_html__("Hi, I'm Ben, a Lancashire-based freelance web developer, specialising in WordPress development and front-end design");
                 } elseif ( is_page(39)) {
                     echo esc_html__("guides subtitle");
                 } elseif ( is_page(41)) {
