@@ -242,7 +242,16 @@ h3 {
   grid-row-gap: 75px;
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: stretch;
+  margin-top: 100px;
   width: 100%;
+}
+
+.services-img {
+  margin: 55px;
+}
+
+.service-block h3 {
+  font-size: 20px;
 }
 
 .sg-item p {
@@ -272,4 +281,11 @@ h3 {
 }
 ::-moz-selection {
   background: #fdba3a; /* Gecko Browsers */
+}
+
+/*--------------------------------------------------------------
+# Code Highlighter
+--------------------------------------------------------------*/
+
+.code {
 }

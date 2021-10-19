@@ -12,6 +12,13 @@
 
     <div class="sg-item">
         <h2 class="lined">What I do.</h2>
+        <div class="services-img"><img src="<?php echo get_template_directory_uri(); ?>/images/wp-logo.png"
+                alt="Wordpress Logo"></div>
+        <div class="services-img"><img src="<?php echo get_template_directory_uri(); ?>/images/php-logo.png"
+                alt="PHP Logo"></div>
+        <div class="services-img"><img src="<?php echo get_template_directory_uri(); ?>/images/woocommerce-logo.png"
+                alt="Woocommerce Logo">
+        </div>
     </div>
 
     <div class="sg-item">
