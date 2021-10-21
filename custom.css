@@ -283,6 +283,26 @@ h3 {
   background: #fdba3a; /* Gecko Browsers */
 }
 
+/*--------------------------------------------------------------
+# Language Text
+--------------------------------------------------------------*/
+.language-text {
+  background: #f1f4f8;
+  color: #343a40;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 2px 3px;
+  white-space: pre-wrap;
+}
+
+/*--------------------------------------------------------------
+# Hide Featured Images on Single Posts
+--------------------------------------------------------------*/
+
 .postid-207 .post-thumbnail {
+  display: none !important;
+}
+
+.postid-238 .post-thumbnail {
   display: none !important;
 }
