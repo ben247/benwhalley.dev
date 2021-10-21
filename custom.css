@@ -283,9 +283,6 @@ h3 {
   background: #fdba3a; /* Gecko Browsers */
 }
 
-/*--------------------------------------------------------------
-# Code Highlighter
---------------------------------------------------------------*/
-
-.code {
+.postid-207 .post-thumbnail {
+  display: none !important;
 }

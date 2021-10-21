@@ -19,10 +19,11 @@
     <div class="container pt-3 pb-3">
         <div class="site-info">
             Copyright &copy;<?php echo date("Y"); echo " "; echo bloginfo('name'); ?>
-            This portfolio is a constant <u><a href="https://github.com/ben247/benwhalley.dev.git" target="_blank">work
+            - This portfolio is a constant <u><a href="https://github.com/ben247/benwhalley.dev.git"
+                    target="_blank">work
                     in
-                    progress.</a></u>
-            Built using WordPress and the WP Bootstrap Starter theme.
+                    progress</a></u>
+            - Built using WordPress and the WP Bootstrap Starter theme.
         </div><!-- close .site-info -->
     </div>
 </footer><!-- #colophon -->

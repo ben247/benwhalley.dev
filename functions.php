@@ -9,9 +9,14 @@ function enqueue_parent_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_parent_styles' );
 
+// echo '<pre>';
+// print_r( get_template_directory_uri() );
+// print_r(get_stylesheet_directory_uri() );
+// wp_die();
+
 // Enqueue custom styles
 function enqueue_custom_styles() {
-    wp_enqueue_style( 'custom-style', '/wp-content/themes/bw-portfolio/custom.css', false);
+    wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/custom.css', array(), filemtime( get_stylesheet_directory() . '/custom.css' ), 'all');
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_styles', 99 );
 
