@@ -299,10 +299,16 @@ h3 {
 # Hide Featured Images on Single Posts
 --------------------------------------------------------------*/
 
+/* Find a better way of achieving this! */
+
 .postid-207 .post-thumbnail {
-  display: none !important;
+  display: none;
 }
 
 .postid-238 .post-thumbnail {
-  display: none !important;
+  display: none;
+}
+
+.postid-253 .post-thumbnail {
+  display: none;
 }
