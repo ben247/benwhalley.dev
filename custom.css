@@ -312,3 +312,12 @@ h3 {
 .postid-253 .post-thumbnail {
   display: none;
 }
+
+/*--------------------------------------------------------------
+# Pseudo example
+--------------------------------------------------------------*/
+
+.form-label-example::after {
+  content: "*";
+  color: red;
+}
