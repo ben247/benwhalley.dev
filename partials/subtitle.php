@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying the title
+ * The template for displaying the subtitle
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
