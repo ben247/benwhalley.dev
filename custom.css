@@ -247,7 +247,7 @@ h3 {
 }
 
 .services-img {
-  margin: 55px;
+  display: inline;
 }
 
 .service-block h3 {
