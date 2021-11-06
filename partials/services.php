@@ -9,7 +9,7 @@
 ?>
 
 <div class="container-fluid">
-    <div class="row">
+    <div class="row d-flex flex-wrap align-items-center">
         <div class="col-md-4">
             <h2 class="lined">
                 What I do.
@@ -33,7 +33,7 @@
             </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row d-flex flex-wrap align-items-center">
         <div class="col-md-4">
             <img alt="PHP Logo" src="<?php echo get_template_directory_uri(); ?>/images/php-logo.png" />
         </div>
@@ -56,7 +56,7 @@
             </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row d-flex flex-wrap align-items-center">
         <div class="col-md-4">
             <img alt="Woocommerce Logo" src="<?php echo get_template_directory_uri(); ?>/images/woocommerce-logo.png" />
         </div>

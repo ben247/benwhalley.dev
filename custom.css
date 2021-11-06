@@ -135,6 +135,14 @@ h3 {
   color: #495057;
 }
 
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
 /*--------------------------------------------------------------
 # Recent Posts Widget Extended
 --------------------------------------------------------------*/
@@ -236,26 +244,8 @@ h3 {
 # Services Grid
 --------------------------------------------------------------*/
 
-.services-grid {
-  display: grid;
-  grid-column-gap: 75px;
-  grid-row-gap: 75px;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: stretch;
-  margin-top: 100px;
-  width: 100%;
-}
-
 .services-img {
   display: inline;
-}
-
-.service-block h3 {
-  font-size: 20px;
-}
-
-.sg-item p {
-  font-size: 1.1rem;
 }
 
 .lined {
