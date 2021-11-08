@@ -18,7 +18,7 @@
     </div>
     <div class="row">
         <div class="col-md-4 align-items-center d-flex flex-wrap">
-            <img class="mx-auto d-block" alt="Wordpress Logo"
+            <img class="mx-auto d-none d-md-block" alt="Wordpress Logo"
                 src="<?php echo get_template_directory_uri(); ?>/images/wp-logo.png" />
         </div>
         <div class="col-md-4">
@@ -41,7 +41,7 @@
     </div>
     <div class="row">
         <div class="col-md-4 align-items-center d-flex flex-wrap">
-            <img class="mx-auto d-block" alt="PHP Logo"
+            <img class="mx-auto d-none d-md-block" alt="PHP Logo"
                 src="<?php echo get_template_directory_uri(); ?>/images/php-logo.png" />
         </div>
         <div class="col-md-4">
@@ -65,7 +65,7 @@
     </div>
     <div class="row">
         <div class="col-md-4 align-items-center d-flex flex-wrap">
-            <img class="mx-auto d-block" alt="Woocommerce Logo"
+            <img class="mx-auto d-none d-md-block" alt="Woocommerce Logo"
                 src="<?php echo get_template_directory_uri(); ?>/images/woocommerce-logo.png" />
         </div>
         <div class="col-md-4">
