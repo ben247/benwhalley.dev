@@ -87,4 +87,13 @@
             </p>
         </div>
     </div>
+    <div class="row">
+        <div class="col-4 d-block d-md-none align-items-center d-flex flex-wrap"><img class="mx-auto" alt="PHP Logo"
+                src="<?php echo get_template_directory_uri(); ?>/images/php-logo.png" /></div>
+        <div class="col-4 d-block d-md-none align-items-center d-flex flex-wrap"><img class="mx-auto"
+                alt="Wordpress Logo" src="<?php echo get_template_directory_uri(); ?>/images/wp-logo.png" /></div>
+        <div class="col-4 d-block d-md-none align-items-center d-flex flex-wrap"><img class="mx-auto"
+                alt="Woocommerce Logo" src="<?php echo get_template_directory_uri(); ?>/images/woocommerce-logo.png" />
+        </div>
+    </div>
 </div>
